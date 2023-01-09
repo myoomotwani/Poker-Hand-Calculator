@@ -17,9 +17,9 @@ All the money collected as part of bets goes to a "pot".
 After "show" , best hands (best combination) for each player , who are still in the round, is determined . 
 
 
-Hand for a player is decided among best 5 out of the 7 cards for the player. 
-7 cards = 2 hole  + 5 community cards
-        = 2 hole  + 3 flop + 1 turn + 1 river
+Hand for a player is decided among best 5 out of the 7 cards for the player. </br>
+<pre> 7 cards = 2 hole  + 5 community cards </br>
+         = 2 hole  + 3 flop + 1 turn + 1 river </pre>
  
  
 The player with the best hand wins the pot.And the winner takes it all.        
