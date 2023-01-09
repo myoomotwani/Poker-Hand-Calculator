@@ -63,7 +63,7 @@ Two cards of the same rank.
 <img width="612" alt="9 Pair" src="https://user-images.githubusercontent.com/13993416/211238306-e7c03cde-7363-439d-ae81-d0274682c2d7.png">
 
 10. High Card
-When you haven't made any of the hands above, the highest card plays.
+When you haven't made any of the hands above, the highest card plays. In the example below, the jack plays as the highest card.
 <img width="602" alt="10 High card" src="https://user-images.githubusercontent.com/13993416/211238232-792b720a-f0d8-4f03-ae7b-a308e0f40ad6.png">
      
 # Project scope     
