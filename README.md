@@ -10,6 +10,8 @@ Cards are dealt in a phased manner. Here are the  stages
 - River - 1 more card is placed in center.
 - Show
 
+![image](https://user-images.githubusercontent.com/13993416/211239579-b69c330b-2f7c-4521-8945-8d2a6301afc4.png)
+
 Before each stage , any of the players can bet more or raise the bet. In order to remain in the round , other players need to match the amount .i.e "Call" , or "Raise" it furthure. If they dont want to match the amount , they can "fold" the cards and stay out for that round. 
 
 All the money collected as part of bets goes to a "pot". 
