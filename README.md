@@ -69,7 +69,9 @@ When you haven't made any of the hands above, the highest card plays. In the exa
 <img width="602" alt="10 High card" src="https://user-images.githubusercontent.com/13993416/211238232-792b720a-f0d8-4f03-ae7b-a308e0f40ad6.png">
      
 # Project scope     
-This project does not take care of betting system in poker , but only focuses on calculating best hand for players. </br>
+-This project does not take care of betting system in poker , 
+- It only focuses on calculating best hand for players.
+- Concept of Dealer player , big blind , small blind are not relevant to this project.
 
 As of now  below combinations are covered to be checked </br>
 
@@ -77,5 +79,26 @@ As of now  below combinations are covered to be checked </br>
 - Stright Flush
 - Straight
 - Flush
+
+# Classes and project structure
+
+- Card class to represent a card in the deck
+- Combination class to represent a hand enum and related info
+- Suite enum
+- Dealer reprsents an entity that deals cards accordingly. it is not the dealer which is the player. 
+- combinationfinder package - various combination finders are packed in one folder. 
+
+
+# How to run
+
+There are 2 flavors to run this program
+
+- Actual game play : In this flavor , Dealer class generates a pack of 52 cards. Shuffles cards using random generator. Then deals cards accordingly.
+For each of the players , winning hand is then determined. Run PokerGamePlayDemo class to use this mode. 
+
+- Hard coded cards : In this flavor , we can hard code the cards and test the program against those cards. This is useful while testing as in dealer based approach we don't have control over which cards will be dealt. Run TestHandDemo class  to use this mode. Use HardCodedDealer to change the cards. 
+
+
+
 
 
