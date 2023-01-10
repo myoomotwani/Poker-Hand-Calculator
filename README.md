@@ -69,4 +69,13 @@ When you haven't made any of the hands above, the highest card plays. In the exa
 <img width="602" alt="10 High card" src="https://user-images.githubusercontent.com/13993416/211238232-792b720a-f0d8-4f03-ae7b-a308e0f40ad6.png">
      
 # Project scope     
-This project does not take care of betting system in poker , but only focuses on calculating best hand for players. 
+This project does not take care of betting system in poker , but only focuses on calculating best hand for players. </br>
+
+As of now  below combinations are covered to be checked </br>
+
+- Royal Flush
+- Stright Flush
+- Straight
+- Flush
+
+
