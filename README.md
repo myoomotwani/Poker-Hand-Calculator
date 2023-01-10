@@ -69,8 +69,9 @@ When you haven't made any of the hands above, the highest card plays. In the exa
 <img width="602" alt="10 High card" src="https://user-images.githubusercontent.com/13993416/211238232-792b720a-f0d8-4f03-ae7b-a308e0f40ad6.png">
      
 # Project scope     
--This project does not take care of betting system in poker , 
-- It only focuses on calculating best hand for players.
+
+- This project only focuses on calculating best hand for players.
+- It does not take care of betting system in poker.
 - Concept of Dealer player , big blind , small blind are not relevant to this project.
 
 As of now  below combinations are covered to be checked </br>
