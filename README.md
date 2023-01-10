@@ -99,6 +99,10 @@ For each of the players , winning hand is then determined. Run PokerGamePlayDemo
 - Hard coded cards : In this flavor , we can hard code the cards and test the program against those cards. This is useful while testing as in dealer based approach we don't have control over which cards will be dealt. Run TestHandDemo class  to use this mode. Use HardCodedDealer to change the cards. 
 
 
+# Roadmap
+
+- Cover remaining hand types.
+- Add JUnit test cases. 
 
 
 
