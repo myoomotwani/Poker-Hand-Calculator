@@ -85,7 +85,7 @@ As of now  below combinations are covered to be checked </br>
 - Card class to represent a card in the deck
 - Combination class to represent a hand enum and related info
 - Suite enum
-- Dealer reprsents an entity that deals cards accordingly. it is not the dealer which is the player. 
+- Dealer represents an entity that deals cards accordingly. it is not the dealer which is the player. 
 - combinationfinder package - various combination finders are packed in one folder. 
 
 
