@@ -23,8 +23,8 @@ jobs:
       run: ls -la
       
     - name: Compile Java file
-      run: javac PokerGamePlayDemo.java  
+      run: javac poker-hand-calculator/src/poker/PokerGamePlayDemo.java  
       
 
     - name: Run Java program
-      run: java -cp PokerGamePlayDemo
+      run: java -cp poker-hand-calculator/src/poker/PokerGamePlayDemo
