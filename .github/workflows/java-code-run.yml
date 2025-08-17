@@ -20,7 +20,7 @@ jobs:
       run: cd poker-hand-calculator/src/poker
       
     - name: Compile Java file
-      run: javac src/PokerGamePlayDemo.java
+      run: javac PokerGamePlayDemo.java
 
     - name: Run Java program
-      run: java -cp src PokerGamePlayDemo
+      run: java -cp PokerGamePlayDemo
