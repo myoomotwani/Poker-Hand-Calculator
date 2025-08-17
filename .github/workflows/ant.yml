@@ -12,3 +12,6 @@ jobs:
 
     - name: Say Hello
       run: echo "👋 Hello, GitHub Actions!"
+
+    - name: List repo files
+      run: ls -la  
