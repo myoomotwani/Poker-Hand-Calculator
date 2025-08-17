@@ -1,9 +1,9 @@
-name: Hello World Workflow
+name: My Awesome Hello World Workflow
 
 on: [push]
 
 jobs:
-  say-hello:
+  say-hello-and-check-contents:
     runs-on: ubuntu-latest
 
     steps:
@@ -14,4 +14,8 @@ jobs:
       run: echo "👋 Hello, GitHub Actions!"
 
     - name: List repo files
-      run: ls -la  
+      run: |
+        cd poker-hand-calculator
+        ls -la
+
+      
