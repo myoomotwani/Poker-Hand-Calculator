@@ -18,9 +18,13 @@ jobs:
 
     - name: enter the folder
       run: cd poker-hand-calculator/src/poker
+
+    - name: list files
+      run: ls -la
       
     - name: Compile Java file
-      run: javac PokerGamePlayDemo.java
+      run: javac PokerGamePlayDemo.java  
+      
 
     - name: Run Java program
       run: java -cp PokerGamePlayDemo
