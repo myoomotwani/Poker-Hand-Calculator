@@ -92,7 +92,7 @@ As of now  below combinations are covered to be checked </br>
 
 # How to run
 
-There are 2 flavors to run this program
+There are 2 flavors to run this program.
 
 - Actual game play : In this flavor , Dealer class generates a pack of 52 cards. Shuffles cards using random generator. Then deals cards accordingly.
 For each of the players , winning hand is then determined. Run PokerGamePlayDemo class to use this mode. 
