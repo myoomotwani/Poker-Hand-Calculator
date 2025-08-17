@@ -1,0 +1,26 @@
+name: Run Java Main
+
+on: [push]
+
+jobs:
+  run-java:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK
+      uses: actions/setup-java@v4
+      with:
+        distribution: temurin   # or 'zulu', 'adopt', etc.
+        java-version: 17        # pick your version
+
+    - name: enter the folder
+      run: cd poker-hand-calculator/src/poker
+      
+    - name: Compile Java file
+      run: javac src/PokerGamePlayDemo.java
+
+    - name: Run Java program
+      run: java -cp src PokerGamePlayDemo
